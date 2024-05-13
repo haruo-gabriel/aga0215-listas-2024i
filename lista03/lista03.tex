@@ -1,0 +1,94 @@
+\documentclass{article}
+
+\usepackage[margin=1cm]{geometry}
+\setlength{\parindent}{0pt}
+\usepackage{amsmath}
+
+\author{Gabriel Haruo Hanai Takeuchi - NUSP\@: 13671636}
+\title{AGA0125 - Lista 3}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+Questões curtas, com respostas em poucas palavras (0,5 pontos cada):
+
+\begin{enumerate}
+\item O poder de coleta de luz de um telescópio varia com que propriedade de lentes ou espelhos?
+\subitem{Diâmetro}.
+
+\item Como se chama a habilidade de um telescópio em separar duas estrelas muito próximas angularmente?
+\subitem{ Ter alta resolução angular. }
+
+\item Como se chama o efeito de uma lente ter distâncias focais diferentes para cores diferentes?
+\subitem{ Aberração cromática. }
+
+\item Qual o nome da grandeza que mede a qualidade das imagens astronômicas, ou seja, a estabilidade da atmosfera, usualmente degradada pela turbulência do ar?
+\subitem{ Seeing. }
+
+\item Qual a faixa de radiação eletromagnética para a qual as imagens ainda têm resolução angular muito ruim?
+\subitem{ Infravermelho. }
+% Resolução é proporcional ao comprimento de onda e inversamente proporcional ao tamanho do telescópio
+
+\item Quando múltiplos radiotelescópios são usados para interferometria, a resolução é melhorada através do aumento de que?
+\subitem{ Aumento da distância entre os radiotelescópios. }
+% Quanto maior a distância entre os rádio-telescópios, maior é a linha de base do interferômetro e maior é resolução angular
+
+\item Qual a melhor região do espectro eletromagnético para estudar o gás quente intergaláctico de $10^6$ K no aglomerado de galáxias de Virgem?
+\subitem{ Raio-X. }
+
+\item A óptica ativa serve para melhorar a qualidade das imagens em telescópios profissionais. Ela atua em qual dos espelhos (primário, secundário, terciário\ldots)?
+\subitem{ Primário. }
+
+\item Como se chama a técnica de deformar a superfície do espelho terciário de um telescópio profissional em tempo real para compensar as distorções da turbulência atmosférica?
+\subitem{ Óptica adaptativa. }
+% Destina-se a compensar/corrigir as deformações na imagem causadas pela turbulência atmosférica
+
+\item Como se chama o elemento dispersor da luz em um espectrógrafo moderno?
+\subitem{Grade de difração.}
+
+\end{enumerate}
+
+Questões (1,0 ponto cada)
+
+\begin{enumerate}
+\item Suponha que moléculas em repouso emitam na faixa das ondas de rádio no comprimento de onda de 18 cm. Essas moléculas são observadas numa nuvem em um comprimento de onda de 18,001 cm. Qual a velocidade radial desta nuvem em km/s e em que sentido ela está se movendo em relação ao observador?
+
+$v = \dfrac{\Delta \lambda \cdot c}{\lambda_{lab}} = \dfrac{(18.001 \cdot 10^{-3}\mbox{m} - 18 \cdot 10^{-3}\mbox{m}) (3 \cdot 10^8)\mbox{m/s}}{18 \cdot 10^{-3}\mbox{m}} = (1/6) \cdot 10^3\mbox{km/s}$, afastando-se.
+
+\item Uma galáxia está com velocidade de afastamento em relação à Terra de 3000 km/s. Em qual comprimento de onda a linha Lyman $\alpha$ deverá ser medida?
+
+$\dfrac{\Delta \lambda}{\lambda_{lab}} = \dfrac{v}{c} \rightarrow
+  \dfrac{\lambda_{obs} - \lambda_{lab}}{\lambda_{lab}} = \dfrac{3000\;\mbox{km/s}}{3 \cdot 10^8\;\mbox{m/s}} \rightarrow
+  \dfrac{\lambda_{obs}}{\lambda_{lab}} - 1 = 0.01 \rightarrow
+  \lambda_{obs} = 1.01 \cdot \lambda_{lab} \rightarrow
+  \lambda_{obs} = 1.01 \cdot 121.6\;\mbox{nm} = 122.7\;\mbox{nm}
+$
+Portanto, deverá ser medida em 122.7 nm.
+
+\item Calcular o comprimento de onda e frequência da radiação emitida pela transição eletrônica entre o 10º e o 9º estados excitados do hidrogênio. Em qual faixa do espectro eletromagnético esta radiação está?
+% $E_n = 13.6 (1 - \dfrac{1}{n^2})\mbox{eV}$
+
+$\Delta E = E_{10} - E_9 = 13.6 (1 - \dfrac{1}{10^2})\mbox{eV} - 13.6 (1 - \dfrac{1}{9^2})\mbox{eV} \approx 13.464 - 13.432 = 0.032\;\mbox{eV}$
+
+$\Delta E = \dfrac{1240}{\lambda} \rightarrow \lambda = \dfrac{1240}{0.032} = 38750\;\mbox{nm}$
+
+Logo, a radiação está na faixa do infravermelho.
+
+\item Na temperatura de 5800 K, os átomos de H na fotosfera do sol possuem velocidades típicas randômicas de 12 km/s. Assumindo que o alargamento da linha espectral é simplesmente o resultado de átomos que se movem na nossa direção e em direção contrária à nossa, estimar o alargamento térmico em nanômetros da linha H$\alpha$ (ou Balmer $\alpha$). 
+
+$\dfrac{\Delta \lambda}{\lambda_{lab}} = \dfrac{2v}{c} \rightarrow
+\Delta \lambda = \dfrac{657\;\mbox{nm} \cdot 2 \cdot 12 \cdot 10^3\mbox{m/s}}{3 \cdot 10^8\mbox{m/s}}
+\Delta \lambda = 0.05256\;\mbox{nm}
+$
+
+Portanto, o alargamento térmico é de 0.05256 nm.
+
+\item Um telescópio de 0,76 m pode coletar uma certa quantidade de luz em 60 horas. Quanto tempo (em minutos) um telescópio de 4,5 m necessita para coletar a mesma quantidade de luz? 
+
+
+
+\end{enumerate}
+
+\end{document}

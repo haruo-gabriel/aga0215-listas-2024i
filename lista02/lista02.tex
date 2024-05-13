@@ -1,0 +1,64 @@
+\documentclass{article}
+
+\usepackage[margin=1cm]{geometry}
+\setlength{\parindent}{0pt}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\author{Gabriel Haruo Hanai Takeuchi - NUSP: 13671636}
+\title{AGA0125 - Lista 2}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{enumerate}
+
+\item Não ocorrem eclipses lunares e solares a cada lunação pois o plano orbital da Lua em torno da Terra é inclinado aproximadamente \SI{5.2}{\degree}. Isso implica que nem em toda lunação tanto a Lua quanto a Terra estarão alinhados para ocorrer um eclipse.
+
+\item É sempre possível ver o disco da Lua em um eclipse lunar total pois a atmosfera terrestre refrata a luz do Sol e a direciona para a Lua. Além disso, ela fica avermelhada, pois a atmosfera terrestre filtra e deixa passar as faixas vermelha e amarela da luz.
+
+\item Júpiter, mesmo sendo o maior dos planetas, não exerce influência significativa nas marés oceânicas. Isto pois a distância entre a Terra e Júpiter é muito grande, e a força gravitacional é inversamente proporcional à uma potência da distância.
+
+\item Um eclipse solar total ocorre quando a Lua está em sua fase nova e se encontra entre a Terra e o Sol. Neste caso, a Lua bloqueia a luz solar e projeta sua sombra na Terra. Um eclipse solar anular ocorre quando a Lua está em sua fase nova e se encontra entre a Terra e o Sol, mas a Lua está mais distante da Terra em sua órbita elíptica, e não cobre completamente o disco solar. Um eclipse solar parcial ocorre quando a Lua está em sua fase nova e se encontra entre a Terra e o Sol, mas a Lua não está perfeitamente alinhada com o Sol e a Terra, e apenas parte do disco solar é coberto.
+
+\item A segunda lei de Kepler afirma que um corpo varre áreas iguais em tempos iguais. Pela natureza elíptica da órbita da Terra, a Terra está mais próxima do Sol em janeiro, e portanto varre mais rapidamente a área da elipse. Em julho, a Terra está mais distante do Sol, e portanto varre mais lentamente a área da elipse. Isso implica no dia solar verdadeiro mínimo em janeiro e máximo em julho.
+
+\item \begin{align*}
+  M_{\text{Sol}} + m_{\text{Terra}} = \dfrac{4 \pi^2 a^3}{G P^2} \rightarrow
+  M_{\text{Sol}} \approx \dfrac{4 \cdot \pi^2 \cdot (1.5 \cdot 10^{11} \si{\meter})^3}{6.67 \cdot 10^{-11} \si{\meter}^3 \si{\kilo\gram}^{-1} \si{\second}^{-2} \cdot (3.16 \cdot 10^7 \si{\second})^2} \rightarrow
+  M_{\text{Sol}} \approx 2 \cdot 10^{30} \si{\kilo\gram}
+\end{align*}
+
+\item
+$P_{\text{Deimos}} = \left(\frac{1262}{365.25}\right) \text{ anos} = 3.46 \times 10^{-3} \text{ anos}$
+
+$a_{\text{Deimos}} = \left(\frac{2.35 \times 10^4}{1.5 \times 10^8}\right) \text{ UA}$
+
+$ \dfrac{4 \pi^2}{G} = 1 \cdot \dfrac{M_{\text{Sol}} \cdot \text{ano}^2}{\text{UA}^3}$
+
+$M_{\text{Marte}} + m_{\text{Deimos}} \approx M_{\text{Marte}} = \dfrac{4 \pi^2 a_{\text{Deimos}}^3}{G P_{\text{Deimos}}^2} = 1 \cdot \dfrac{(1.57 \times 10^{-4})}{(3.46 \times 10^{-2})^2} \cdot M_{\text{Sol}} = 3.2 \times 10^{-7} \cdot M_{\text{Sol}}$
+
+\item
+\begin{align*}
+    M_1 + M_2 = \dfrac{4 \pi^2 a^3}{GP^2} \rightarrow
+    2 M_{\text{Sol}} = \dfrac{a^3}{P^2} \rightarrow
+    2 M_{\text{Sol}} = \dfrac{(0.1)^3}{P^2} \rightarrow
+    P = \sqrt{\dfrac{(0.1)^3}{2 M_{\text{Sol}}}} = \sqrt{\dfrac{0.001}{2}}
+\end{align*}
+
+\item
+\[v_{\text{escape}} = \sqrt{\dfrac{2GM_{\text{Terra}}}{R_{\text{Terra}}}} = \sqrt{\dfrac{2 \cdot 6.67 \cdot 10^{-11} \si{\newton\meter}^2 \cdot 5.95 \times 10^{24} \si{\kilo\gram}}{6.37 \times 10^6 \si{\meter\kilo\gram}^2}} = 11.2 \si{\kilo\meter}/\si{\second}\]
+
+\item
+\begin{align*}
+    P_{Jupiter} = \dfrac{G \cdot 318M_{Terra} \cdot m}{(11R_{Terra})^2}
+    = \dfrac{318}{121} \dfrac{G \cdot M_{Terra}}{R_{Terra}^2} = \dfrac{318}{121} P_{Terra}\\
+    P_{Urano} = \dfrac{G \cdot 14M_{Terra} \cdot m}{(4R_{Terra})^2}
+    = \dfrac{14}{16} \dfrac{G \cdot M_{Terra}}{R_{Terra}^2} = \dfrac{7}{8} P_{Terra}
+\end{align*}
+
+\end{enumerate}
+
+\end{document}
